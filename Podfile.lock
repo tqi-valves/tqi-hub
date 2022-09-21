@@ -1,13 +1,13 @@
 PODS:
   - AloeStackView (1.2.0)
   - TinyConstraints (4.0.2)
-  - UICodeKit (1.0.1):
+  - UICodeKit (1.0.2):
     - AloeStackView
     - TinyConstraints
   - VFNetwork (1.4.2)
 
 DEPENDENCIES:
-  - UICodeKit (from `../../UICodeKit`)
+  - "UICodeKit (from `git@github.com-vafreitas:vafreitas/UICodeKit.git`, branch `master`)"
   - VFNetwork
 
 SPEC REPOS:
@@ -18,14 +18,20 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   UICodeKit:
-    :path: "../../UICodeKit"
+    :branch: master
+    :git: "git@github.com-vafreitas:vafreitas/UICodeKit.git"
+
+CHECKOUT OPTIONS:
+  UICodeKit:
+    :commit: 1cc7c0912be877e2bd45c30218be3e5c80617daa
+    :git: "git@github.com-vafreitas:vafreitas/UICodeKit.git"
 
 SPEC CHECKSUMS:
   AloeStackView: 8a4ce0efa08128dd78d538372f60c76c224034bb
   TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
-  UICodeKit: 33b886b188ae257c5d3df0783baa86d905acc46e
+  UICodeKit: e50d224313f8342a8e2afa9e6459578181044f78
   VFNetwork: 7b71c6a044beceabee82e6b5f56f4d2fcbc8552e
 
-PODFILE CHECKSUM: 6711496ccf9b376a1649ac28ee54e97d9080325e
+PODFILE CHECKSUM: 4e65f26b0aa16bee8891abff92ba18f736071aa5
 
 COCOAPODS: 1.11.2

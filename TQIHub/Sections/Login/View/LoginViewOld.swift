@@ -112,8 +112,8 @@ class LoginViewOld: UIView {
     }
 }
 
-struct LoginViewOld_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginControllerOld().toPreview()
-    }
-}
+//struct LoginViewOld_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LoginControllerOld().toPreview()
+//    }
+//}

@@ -6,7 +6,7 @@ target 'TQIHub' do
   use_frameworks!
 
   # Pods for TQIHub
-  pod 'UICodeKit', :path => '../../UICodeKit'  # :git => 'git@github.com-vafreitas:vafreitas/UICodeKit.git', :branch => 'master'
+  pod 'UICodeKit', :git => 'git@github.com-vafreitas:vafreitas/UICodeKit.git', :branch => 'master'
   pod 'VFNetwork'
   
   target 'TQIHubTests' do

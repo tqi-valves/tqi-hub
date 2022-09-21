@@ -11,7 +11,7 @@ import UICodeKit
 class HomeCollectionViewCell: BaseCollectionViewCell {
     let label = UILabel() .. {
         $0.text  = "-"
-        $0.backgroundColor = .systemIndigo
+        $0.backgroundColor = .blue
         $0.font = .systemFont(ofSize: 18, weight: .heavy)
         $0.textColor = .white
         $0.layer.cornerRadius = 22

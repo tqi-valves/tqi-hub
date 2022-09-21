@@ -96,11 +96,6 @@ class HomeView: BaseView {
         $0.height(100)
     }
     
-    var indicator = UIActivityIndicatorView() .. {
-        $0.style = .large
-        $0.size(.init(width: 40, height: 40))
-    }
-    
     // MARK: Body
     
     override func body() -> UICodeView? {
