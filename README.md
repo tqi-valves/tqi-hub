@@ -7,6 +7,7 @@ Projeto de estudo para utilização de viewCode com UIKIT.
 Este projeto usa MVVM com ViewCode para exemplificar um Hub de eventos e cursos, Você verá dois tipos de View, uma utilizando ViewCode puro 
 e outra utilizando uma lib Chamada [UICodeKit](https://github.com/vafreitas/UICodeKit).
 
+<img src="https://github.com/tqi-valves/tqi-hub/blob/main/Images/login.png" width="200px" /> <img src="https://github.com/tqi-valves/tqi-hub/blob/main/Images/home.png" width="200px" /> <img src="https://github.com/tqi-valves/tqi-hub/blob/main/Images/detail.png" width="200px" />
 ## Como Utilizar
 
 Para rodar o projeto voce precisar no minimo ter os seguites requerimentos.
