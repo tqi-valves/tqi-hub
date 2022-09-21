@@ -1,0 +1,31 @@
+PODS:
+  - AloeStackView (1.2.0)
+  - TinyConstraints (4.0.2)
+  - UICodeKit (1.0.1):
+    - AloeStackView
+    - TinyConstraints
+  - VFNetwork (1.4.2)
+
+DEPENDENCIES:
+  - UICodeKit (from `../../UICodeKit`)
+  - VFNetwork
+
+SPEC REPOS:
+  trunk:
+    - AloeStackView
+    - TinyConstraints
+    - VFNetwork
+
+EXTERNAL SOURCES:
+  UICodeKit:
+    :path: "../../UICodeKit"
+
+SPEC CHECKSUMS:
+  AloeStackView: 8a4ce0efa08128dd78d538372f60c76c224034bb
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+  UICodeKit: 33b886b188ae257c5d3df0783baa86d905acc46e
+  VFNetwork: 7b71c6a044beceabee82e6b5f56f4d2fcbc8552e
+
+PODFILE CHECKSUM: 6711496ccf9b376a1649ac28ee54e97d9080325e
+
+COCOAPODS: 1.11.2
